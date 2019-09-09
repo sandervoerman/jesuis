@@ -1,0 +1,43 @@
+---
+layout: page
+---
+{{ content }}
+
+{% for article in page.articles -%}
+  {%- if article.pdf -%}
+    {%- capture link %}/assets/pdf/{{ article.pdf }}{% endcapture -%}
+    {%- capture icon %}<i class="far fa-file-pdf"></i>{% endcapture -%}
+    {%- assign info = 'Download' -%}
+  {%- else -%}
+    {%- assign link = article.link -%}
+    {%- capture icon %}<i class="fas fa-external-link-alt"></i>{% endcapture -%}
+    {%- assign info = 'Read' -%}
+  {%- endif -%}
+
+  {%- if article.title.nl -%}
+    {%- assign article_title = article.title.nl -%}
+    {%- capture article_heading -%}
+      <h2 lang="nl">{{ article_title }}</h2>
+    {%- endcapture -%}
+    {%- capture article_about -%}
+      <p>({{- article.title.en -}}).
+        {{ article.about -}} <span class="articlelink">{{ icon }}</span></p>
+    {%- endcapture -%}
+
+  {%- else -%}
+    {%- assign article_title = article.title.en -%}
+    {%- capture article_heading -%}
+      <h2>{{ article_title }}</h2>
+    {%- endcapture -%}
+    {%- capture article_about -%}
+      <p>{{- article.about -}} <span class="articlelink">{{ icon }}</span></p>
+    {%- endcapture -%}
+
+  {%- endif -%}
+
+
+  <a class="article" href="{{ link }}" title="{{ info }} {{ article_title }}">
+    {{ article_heading }}
+    {{ article_about }}
+  </a>
+{%- endfor %}

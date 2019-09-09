@@ -1,5 +1,4 @@
-title: Your awesome title
-author: GitHub User
+title: Your Name
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -44,8 +43,23 @@ minima:
 # - about.md
 
 # Build settings
-theme: minima
+# theme: minima
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+# Exclude from processing.
+exclude:
+ - README.md
+ - LICENSE.txt
+ - History.markdown
+ - minima.gemspec
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - script/
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/

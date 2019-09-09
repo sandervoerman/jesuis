@@ -1,21 +1,21 @@
-# upstream-minima
+# Jesuis
 
-This branch contains a custom merge of all *Minima* development branches that
-have been, or are about to be, merged into *Jesuis*.
+Jesuis is a [Jekyll](https://jekyllrb.com/) theme for profile pages. It is based on Jekyll's default [Minima](https://github.com/jekyll/minima/) theme and Ethan Schoonover's [Solarized](https://ethanschoonover.com/solarized/) color scheme.
+
+
+## Preview
+
+![jesuis theme preview](/screenshot.png)
+
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](/LICENSE.txt).
+
 
 ---
+*The following information is largely left unaltered from the `README` file of the Minima theme. As Jesuis is still under development, some of this information may not be applicable to this version of the theme.*
 
-*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
-
-***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
-within the theme-gem for information specific to your version or by pointing your browser to the Git tag corresponding to your
-version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*  
-*Running `bundle show minima` will provide you with the local path to your current theme version.*
-
-
-[Theme preview](https://jekyll.github.io/minima/)
-
-![minima theme preview](/screenshot.png)
 
 ## Installation
 
@@ -259,16 +259,8 @@ show_excerpts: true
 ```
 
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 ## Development
 
 To set up your environment to develop this theme, run `script/bootstrap`.
 
 To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
