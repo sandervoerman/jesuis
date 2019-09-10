@@ -269,6 +269,7 @@
 .home {
   #profile-picture {
     border: 1px solid $brand-color-light;
+    margin-bottom: $spacing-unit;
   }
   @media (min-width: 600px) {
     #profile-picture {
