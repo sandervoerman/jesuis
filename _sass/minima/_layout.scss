@@ -268,13 +268,17 @@
  */
 .home {
   #profile-picture {
+    display: block;
     border: 1px solid $brand-color-light;
     margin-bottom: $spacing-unit;
+    margin-left: auto;
+    margin-right: auto;
   }
   @media (min-width: 600px) {
     #profile-picture {
       float: right;
       margin-left: 50px;
+      margin-right: 0;
     }
     p {
       text-align: justify;
