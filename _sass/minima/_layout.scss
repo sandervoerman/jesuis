@@ -231,6 +231,13 @@
       @include relative-font-size(1.25);
     }
   }
+
+  dl {
+    dt {
+      margin-top: $spacing-unit / 2;
+      font-weight: bold;
+    }
+  }
 }
 
 
