@@ -317,6 +317,7 @@
 
     h2 {
       @include relative-font-size(1.6);
+      margin-top: 0;
       color: $link-base-color;
     }
 
