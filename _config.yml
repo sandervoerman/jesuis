@@ -53,12 +53,9 @@ plugins:
 exclude:
  - README.md
  - LICENSE.txt
- - History.markdown
- - minima.gemspec
  - Gemfile
  - Gemfile.lock
  - node_modules
- - script/
  - vendor/bundle/
  - vendor/cache/
  - vendor/gems/
