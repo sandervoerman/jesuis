@@ -1,11 +1,9 @@
 ---
 #
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# Content added below the "---" mark will appear on the home page
+# together with the profile picture.
 #
 layout: home
 ---
 
-Profile text.
+Lorem ipsum dolor sit amet, an summo officiis pericula mea. Prima utamur his ad, ex nec saepe iudico. Putent nostrum ut eum. Harum mentitum eam et. Posse dicat nec at, cu eius delenit fuisset mei. Has errem delenit in, eos prompta vivendo disputando ex, scripta accusata interesset pri an. Dicta bonorum at eos, eos ex etiam bonorum oporteat, labore nusquam aliquando ad mel.
