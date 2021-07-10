@@ -10,6 +10,7 @@
   * Add Keybase to social links (#400)
   * Solarized skins (#404)
   * Add a placeholder of favicons (#433)
+  * fix: make page.list_title optional (#303)
 
 ### Major Enhancements
 
@@ -20,6 +21,9 @@
   * Add missing rel=me attributes to social links (#386)
   * Set the border radius of highlight (#426)
   * Removed unnecessary whitespace-controls (#390)
+  * fix: overflow auto for tables (#296)
+  *  Add `overflow-wrap: break-word` to body tag (#321)
+  * Use &#34;rem&#34; unit in relative-font-size mixin (#436)
 
 ## 2.5.1
 
