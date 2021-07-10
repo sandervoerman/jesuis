@@ -17,10 +17,17 @@
   * Add GitLab to social (#352)
   * Support mutiple authors on post layout (#348)
   * Re-implement site footer markup and styles (#448)
+  * Support pagination through posts in home layout (#450)
+  * Show the last modified date of posts (#432)
+  * Set margins of hr to improve readability (#461)
+  * Export a variable to let users to custom the font family of code (#462)
+  * Set margin-bottom of pagination (#458)
+  * Adjust margins of headings to make sections clear (#467)
 
 ### Major Enhancements
 
   * Allow skins to be defined and customized easily (#336)
+  * Drop support for scalar &#39;author&#39; configuration (#384)
 
 ### Bug Fixes
 
@@ -33,6 +40,8 @@
   * Assign static value to variable outside forloop (#437)
   * Add font-size styles for elements h5 and h6 (#441)
   * Stop prefixing CSS calc with `-webkit-` (#445)
+  * Improve readability of post titles with diacritics (#449)
+  * Fix a bug of incorrect parsing of page.modified_date (#455)
 
 ### Development Fixes
 
