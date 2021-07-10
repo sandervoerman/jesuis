@@ -136,6 +136,10 @@
 .social-links {
   @include relative-font-size(0.9375);
   color: $brand-color;
+
+  a {
+    color: $brand-color-dark;
+  }
 }
 
 .footer-col {
@@ -145,11 +149,6 @@
 .footer-col-1,
 .footer-col-2 {
   width: calc(50% - (#{$spacing-unit} / 2));
-}
-
-  a {
-    color: $brand-color-dark;
-  }
 }
 
 @media screen and (min-width: $on-medium) {
