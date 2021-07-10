@@ -27,8 +27,3 @@ remote_theme: yourname/jesuis
 Jesuis is not gem-based, but you can use it as a regular Jekyll theme by
 cloning it as the starting point of your own site, or by merging it into
 your existing website.
-
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](/LICENSE.txt).
