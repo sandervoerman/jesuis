@@ -224,7 +224,6 @@ minima:
     linkedin: jekyll
     pinterest: jekyll
     telegram: jekyll
-    googleplus: +jekyll
     microdotblog: jekyll
     keybase: jekyll
     rss: rss
