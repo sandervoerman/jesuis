@@ -329,12 +329,15 @@
   margin-left: -50px;
 
 
-  #profile-picture {
+  img#profile-picture {
     display: block;
     border: 1px solid $brand-color-light;
     margin-bottom: $spacing-unit / 2;
     margin-left: 50px;
     flex: 0 1 226px;
+    min-width: 226px;
+    width: 226px;
+    max-width: 226px;
   }
 
   #profile-text {
