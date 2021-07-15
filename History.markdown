@@ -27,6 +27,7 @@
   * Remove RSS icon from the social media list (#470)
   * Improve the readablility of blockquotes (#481)
   * Extract more color rules into skins (#452)
+  * Introduce &#34;Dark Minima&#34; skin (#335)
 
 ### Major Enhancements
 
@@ -54,6 +55,8 @@
   * Ignore .jekyll-cache (#439)
   * Clean up and optimize .gitignore (#475)
   * [chore] Normalize Travis CI builds (#480)
+  * chore(deps): bump Ruby version (#510)
+  * Conditionally load GFM-parser gem in CI builds (#535)
 
 ## 2.5.1
 
