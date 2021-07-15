@@ -10,7 +10,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 # Theme settings
 jesuis:
-  profile_picture: "profile.jpg"
+  profile_picture: "profile.png"
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
