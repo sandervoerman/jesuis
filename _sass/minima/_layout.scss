@@ -132,6 +132,11 @@
   margin-left: 0;
 }
 
+.contact-list li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer-col-wrapper,
 .social-links {
   @include relative-font-size(0.9375);
